@@ -36,12 +36,11 @@ function roll() {
     }
 }
 
-var newNum1 = roll()
-var newNum2 = roll()
-document.getElementById("check").innerHTML = newNum1;
-document.getElementById("check2").innerHTML = newNum2;
-
-
-
-
-
+function rollTheDice (){
+    var num1 = roll()
+    var num2 = roll()
+    // return [roll(), roll()]
+    
+    document.getElementById("check").innerHTML = num1;
+    document.getElementById("check2").innerHTML = num2;
+}
